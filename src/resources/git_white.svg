@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="256px"
+   height="256px"
+   viewBox="0 0 256 256"
+   preserveAspectRatio="xMinYMin meet"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="git_white.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.1015625"
+     inkscape:cx="128"
+     inkscape:cy="182.97229"
+     inkscape:window-width="1920"
+     inkscape:window-height="983"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M 215.59436,87.531722 137.45011,9.391668 c -4.49757,-4.500362 -11.79658,-4.500362 -16.29975,0 l -16.22703,16.227034 20.58477,20.584772 c 4.78352,-1.616412 10.26897,-0.532046 14.08207,3.281062 3.8313,3.837579 4.90797,9.369871 3.2524,14.168767 l 19.8381,19.838789 c 4.79959,-1.653465 10.33748,-0.583781 14.17086,3.255894 5.35751,5.355411 5.35751,14.035234 0,19.394144 -5.35891,5.3596 -14.03872,5.3596 -19.40043,0 -4.02984,-4.03404 -5.02542,-9.952263 -2.98532,-14.916854 l -18.50064,-18.500635 -0.002,48.685999 a 13.85695,13.85695 0 0 1 3.62714,2.59381 c 5.35751,5.35541 5.35751,14.03592 0,19.39903 -5.35891,5.35681 -14.04292,5.35681 -19.39414,0 -5.35751,-5.36311 -5.35751,-14.04292 0,-19.39833 a 13.740893,13.740893 0 0 1 4.48918,-2.99302 V 71.87239 a 13.54793,13.54793 0 0 1 -4.48878,-2.993018 C 116.13683,64.82576 115.16083,58.869788 117.24078,53.885621 L 96.948938,33.591692 43.366867,87.170267 c -4.502459,4.50456 -4.502459,11.80428 0,16.305343 l 78.145653,78.14145 c 4.49897,4.50106 11.79658,4.50106 16.30115,0 l 77.77999,-77.7786 c 4.50106,-4.502463 4.50106,-11.806373 0,-16.306738"
+     fill="#DE4C36"
+     id="path2"
+     style="fill:#ffffff;stroke-width:0.69914" />
+  <text
+     xml:space="preserve"
+     style="font-size:60.4282px;line-height:1.25;font-family:Freebooter;-inkscape-font-specification:Freebooter;stroke-width:1.5107;fill:#ffffff"
+     x="87.705948"
+     y="232.00801"
+     id="text1857"><tspan
+       sodipodi:role="line"
+       id="tspan1855"
+       x="87.705948"
+       y="232.00801"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';stroke-width:1.5107;fill:#ffffff">git</tspan></text>
+</svg>

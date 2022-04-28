@@ -1,0 +1,32 @@
+.Shadow{
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+}
+
+.TriangleHeader {
+    background-color:#faffff;
+	clip-path: polygon(0 0, 100% 0, 100% 0%,50% 40% ,0 0%);
+	width: 100vw;
+	height: 75vh;
+    position: absolute;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    color:#256EFF;
+    padding-top: 4vh ;
+    p {
+        text-transform: uppercase;
+        font-size: 3vh;
+        margin: 5px;
+    }
+    h4 {
+        margin-top: 3vh;
+        text-transform: capitalize;
+        font-size: 2vh;
+    }
+}
+
+.HeaderDivider {
+    width: 20vw;
+    height: 1px;
+    background-color: #256EFF;
+}
