@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Page from '~/components/routes/Page/Page';
 import Sider from '~/components/shared/Sider/Sider';
 import styles from './EmailPage.module.scss';
+import SearchBar from '~/components/shared/SectionTitle/SearchBar';
 
 const EmailPage: React.FC<IPageAttributes> = (props) => {
   const dispatch = useDispatch();
@@ -27,7 +28,9 @@ const EmailPage: React.FC<IPageAttributes> = (props) => {
               ))}
           </div>
         </Sider>
-        <div className={styles.Content}> CONTENT</div>
+        <div className={styles.Content}>
+          <SearchBar />
+        </div>
       </div>
     </Page>
   );

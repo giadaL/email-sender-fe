@@ -22,5 +22,5 @@ export default {
     THE_PROJECT:"the project",
     START_DEMO:"start demo",
     SIDER_TITLE:"templates",
-    SIDER_BUTTON:"show templates"
+    SIDER_BUTTON:"view templates"
 };

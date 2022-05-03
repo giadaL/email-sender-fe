@@ -1,0 +1,49 @@
+.InputSearch {
+    border-radius: 20px;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    padding:5px 5px 5px 15px;
+}
+
+.InputSearch:focus {
+    outline: none;
+    border-bottom: #256EFF 1px solid;
+    border-top: #256EFF 1px solid;
+    border-left: #256EFF 1px solid;
+
+    border-radius:20px 20px 20px 20px;
+}
+
+.InputSearch::placeholder {
+    margin:5px;
+}
+
+.SearchBarDiv {
+    text-align:center;
+    display:flex;
+    width:50%;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin:30px;
+    border:rgb(93, 155, 231) 1px solid;
+}
+
+.SearchIcon {
+    > span{
+        cursor: pointer;
+        border-radius: 21px;
+        height: 25px;
+        width:25px;
+        padding-right:2px;
+        > svg {
+            height: 100%;
+            color: #FFFFFF;
+            align-items: center;
+            text-align: center;
+            margin:1px;
+        }
+    }
+}
