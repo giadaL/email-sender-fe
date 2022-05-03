@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { actions, selectors } from '@store/template';
 import { IPageAttributes } from '@schemas/schemas_d';
+import { MailFilled } from '@ant-design/icons';
 import { useDispatch, useSelector } from 'react-redux';
 import Page from '~/components/routes/Page/Page';
 import Sider from '~/components/shared/Sider/Sider';
@@ -29,7 +30,13 @@ const EmailPage: React.FC<IPageAttributes> = (props) => {
           </div>
         </Sider>
         <div className={styles.Content}>
-          <SearchBar />
+          <div className={styles.ContentHeader}>
+            <SearchBar />
+            <div className={styles.LogoContainer}>
+              <MailFilled />
+              <p>EMAIL SENDER</p>
+            </div>
+          </div>
         </div>
       </div>
     </Page>
