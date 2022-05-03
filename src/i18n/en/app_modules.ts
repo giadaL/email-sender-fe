@@ -1,6 +1,7 @@
 export default {
     AUTHOR: "giada legname",
     PROJECT: "email sender",
+    // eslint-disable-next-line no-multi-str
     PROJECT_DESCRIPTION: " Lorem ipsum dolor sit amet, \
         consectetur adipiscing elit. Mauris a cursus diam. \
         Donec mollis mi nec convallis gravida. Pellentesque \
@@ -19,5 +20,7 @@ export default {
         enim velit, eget eleifend nunc elementum non. \
         Morbi elementum ornare lorem.",
     THE_PROJECT:"the project",
-    START_DEMO:"start demo"
+    START_DEMO:"start demo",
+    SIDER_TITLE:"templates",
+    SIDER_BUTTON:"show templates"
 };

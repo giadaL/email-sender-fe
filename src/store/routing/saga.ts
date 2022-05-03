@@ -1,7 +1,6 @@
 
 import { fork, put, call, take, takeLatest } from 'redux-saga/effects';
 import history, { createHistoryChannel } from '@store/history';
-import { Routes } from '~/components/routes/urls';
 
 import { CommandAction } from '~/schemas/actions_d';
 import actions from './actions';

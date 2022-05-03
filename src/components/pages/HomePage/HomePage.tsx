@@ -1,7 +1,10 @@
+import { useDispatch } from 'react-redux';
+import { actions } from '@store/routing';
+import { GithubOutlined, LinkedinOutlined } from '@ant-design/icons';
 import Page from '~/components/routes/Page/Page';
 import TriangleHeader from '~/components/shared/TriangleHeader/TriangleHeader';
 import i18n from '~/i18n';
-import { PageAttributes } from '~/schemas/compAttributes_d';
+import { IPageAttributes } from '~/schemas/schemas_d';
 import pythonIcon from '~/resources/python_white.svg';
 import fastApiIcon from '~/resources/fastapi_white.svg';
 import postgresqlIcon from '~/resources/postgresql.svg';
@@ -11,15 +14,13 @@ import typescriptIcon from '~/resources/typescript_white.svg';
 import dockerIcon from '~/resources/docker_white.svg';
 import sassIcon from '~/resources/sass_white.png';
 import gitIcon from '~/resources/git_white.svg';
-import { GithubOutlined, LinkedinOutlined } from '@ant-design/icons';
 
 import styles from './HomePage.module.scss';
 import SectionTitle from '~/components/shared/SectionTitle/SectionTitle';
-import { useDispatch } from 'react-redux';
-import { actions } from '@store/routing';
+
 import { Routes } from '~/components/routes/urls';
 
-const HomePage: React.FC<PageAttributes> = (props) => {
+const HomePage: React.FC<IPageAttributes> = (props) => {
   const dispatch = useDispatch();
 
   return (
@@ -97,6 +98,7 @@ const HomePage: React.FC<PageAttributes> = (props) => {
                 <button
                   className={styles.ButtonStart}
                   onClick={() => dispatch(actions.linkTo(Routes.HOME))}
+                  type="button"
                 >
                   {i18n.START_DEMO}
                 </button>
